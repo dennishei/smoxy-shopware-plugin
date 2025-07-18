@@ -7,7 +7,7 @@ import Plugin from 'src/plugin-system/plugin.class';
  * for better caching performance. Maintains 1:1 visual compatibility with the original.
  * 
  * @package Smoxy
- * @author SMOXY
+ * @author Dennis Heidtmann <dennis.heidtmann@gmail.com>
  * @version 1.0.0
  */
 export default class AccountOverlayPlugin extends Plugin {

@@ -15,7 +15,7 @@ use Symfony\Component\HttpFoundation\Request;
  * Returns JSON responses with appropriate URLs and user information for dynamic rendering.
  * 
  * @package Smoxy\Storefront\Controller
- * @author SMOXY
+ * @author Dennis Heidtmann <dennis.heidtmann@gmail.com>
  * @version 1.0.0
  */
 class AccountOverlayController extends StorefrontController

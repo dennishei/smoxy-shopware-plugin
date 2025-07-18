@@ -8,7 +8,8 @@
     "homepage": "https://github.com/dennishei/smoxy-shopware-plugin",
     "authors": [
         {
-            "name": "SMOXY",
+            "name": "Dennis Heidtmann",
+            "email": "dennis.heidtmann@gmail.com",
             "homepage": "https://www.smoxy.eu/"
         }
     ],
