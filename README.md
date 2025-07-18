@@ -1,4 +1,4 @@
-# SMOXY Account Overlay Plugin
+# SMOXY Shopware Plugin
 
 [English Version](#english-version) | [Deutsche Version](#deutsche-version)
 
