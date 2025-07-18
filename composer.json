@@ -2,7 +2,6 @@
     "name": "dennishei/smoxy-shopware",
     "description": "SMOXY Plugin",
     "type": "shopware-platform-plugin",
-    "version": "1.0.0",
     "license": "MIT",
     "keywords": ["shopware", "smoxy", "caching", "performance"],
     "homepage": "https://github.com/dennishei/smoxy-shopware-plugin",
