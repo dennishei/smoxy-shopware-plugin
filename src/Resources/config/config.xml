@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/trunk/src/Core/System/SystemConfig/Schema/config.xsd">
+    <card>
+        <title>SMOXY Account Overlay</title>
+        <title lang="de-DE">SMOXY Account Overlay</title>
+        
+        <input-field>
+            <name>enableCaching</name>
+            <label>Enable Caching</label>
+            <label lang="de-DE">Caching aktivieren</label>
+            <helpText>Enable or disable client-side caching for the account overlay</helpText>
+            <helpText lang="de-DE">Client-seitiges Caching für das Account-Overlay aktivieren oder deaktivieren</helpText>
+            <type>bool</type>
+            <defaultValue>true</defaultValue>
+        </input-field>
+        
+        <input-field>
+            <name>cacheTimeout</name>
+            <label>Cache Timeout (seconds)</label>
+            <label lang="de-DE">Cache-Timeout (Sekunden)</label>
+            <helpText>Duration in seconds for how long the account overlay should be cached</helpText>
+            <helpText lang="de-DE">Dauer in Sekunden, wie lange das Account-Overlay gecacht werden soll</helpText>
+            <type>int</type>
+            <defaultValue>300</defaultValue>
+            <validation>
+                <min>0</min>
+                <max>3600</max>
+            </validation>
+        </input-field>
+        
+        <input-field>
+            <name>loadOnHover</name>
+            <label>Load on Hover</label>
+            <label lang="de-DE">Laden beim Hover</label>
+            <helpText>Load the account overlay content when hovering over the account icon</helpText>
+            <helpText lang="de-DE">Account-Overlay-Inhalt beim Hover über das Account-Icon laden</helpText>
+            <type>bool</type>
+            <defaultValue>true</defaultValue>
+        </input-field>
+        
+        <input-field>
+            <name>loadOnClick</name>
+            <label>Load on Click</label>
+            <label lang="de-DE">Laden beim Klick</label>
+            <helpText>Load the account overlay content when clicking on the account icon</helpText>
+            <helpText lang="de-DE">Account-Overlay-Inhalt beim Klick auf das Account-Icon laden</helpText>
+            <type>bool</type>
+            <defaultValue>false</defaultValue>
+        </input-field>
+    </card>
+</config>

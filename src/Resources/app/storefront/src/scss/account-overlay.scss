@@ -1,0 +1,28 @@
+/**
+ * SMOXY Account Overlay Styles
+ * Minimal styles for account overlay loading states and error handling
+ */
+
+// Loading placeholder
+.account-overlay-placeholder {
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    
+    .spinner-border {
+        color: var(--color-primary);
+    }
+}
+
+// Error state
+.account-overlay-error {
+    text-align: center;
+    padding: 1rem;
+    color: var(--color-danger);
+
+    p {
+        margin-bottom: 1rem;
+    }
+}
